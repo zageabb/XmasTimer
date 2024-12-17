@@ -3,7 +3,7 @@ import time
 from datetime import datetime, timedelta
 
 # Streamlit app setup
-st.title("Countdown to Christmas")
+#st.title("Countdown to Christmas")
 
 # Define Christmas date for the current year
 def get_christmas_date():

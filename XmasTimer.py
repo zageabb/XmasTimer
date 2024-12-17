@@ -45,7 +45,7 @@ while True:
 
     # Update the display
     placeholder.markdown(
-        f"<h1 style='text-align: center; font-size: 64px;'>Time to Christmas: {countdown_display}</h1>",
+        f"<h1 style='text-align: center; font-size: 64px;'>Time to Christmas: <br>{countdown_display}</h1>",
         unsafe_allow_html=True,
     )
 

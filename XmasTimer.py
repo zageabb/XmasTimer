@@ -14,15 +14,15 @@ from datetime import datetime, timedelta
 #}
 #</style>
 st.markdown(
-    """
-    <style>
-        body {
-          background-image: url('https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif');
-          background-repeat: no-repeat;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif");
+            background-size: cover;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True    
 )
 
 #st.markdown(

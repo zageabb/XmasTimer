@@ -18,7 +18,7 @@ st.markdown(
         <style>
         .stApp {{
             background-image: url("https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif");
-                background-size: 100%; /* Options: cover, contain, auto, or specify dimensions (e.g., 100% 100%) */
+                background-size: 400 280; /* Options: cover, contain, auto, or specify dimensions (e.g., 100% 100%) */
                 background-repeat: no-repeat; /* To prevent repeating the background */
                 background-position: center; /* To center the background image */
         }}

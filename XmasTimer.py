@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 st.markdown(
     """
     <div style="text-align: center; margin-bottom: 20px;">
-        <div class="tenor-gif-embed" data-postid="19705759" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/happy-christmas-dancing-santa-gif-19705759">Happy Christmas Dancing Santa GIF</a>from <a href="https://tenor.com/search/happy+christmas-gifs">Happy Christmas GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div> <p style="background-image: url('https://raw.githubusercontent.com/zageabb/xmastimer/main/happy-chrstmas-dancing-santa.gif');">
     </div>
     """,
     unsafe_allow_html=True,

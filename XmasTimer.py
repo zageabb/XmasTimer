@@ -6,14 +6,33 @@ from datetime import datetime, timedelta
 #st.title("Countdown to Christmas")
 
 # Add a dancing Santa GIF as background or decorative element
+
+#<style>
+#body {
+#  background-image: url('https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif');
+#  background-repeat: no-repeat;
+#}
+#</style>
 st.markdown(
     """
-    <div style="text-align: center; margin-bottom: 20px;">
-        <img src="https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif" width="400" height="271" alt="Dancing Santa">
-    </div>
+    <style>
+        body {
+          background-image: url('https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif');
+          background-repeat: no-repeat;
+        }
+    </style>
     """,
     unsafe_allow_html=True,
 )
+
+#st.markdown(
+#    """
+#    <div style="text-align: center; margin-bottom: 20px;">
+#        <img src="https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif" width="400" height="271" alt="Dancing Santa">
+#    </div>
+#    """,
+#    unsafe_allow_html=True,
+#)
 
 # Define Christmas date for the current year
 def get_christmas_date():

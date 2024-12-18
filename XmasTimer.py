@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 st.markdown(
     """
     <div style="text-align: center; margin-bottom: 20px;">
-        <div> <p style="background-image: url('https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif');">
+        <img src="https://raw.githubusercontent.com/zageabb/XmasTimer/refs/heads/main/happy-christmas-dancing-santa.gif" width="480" height="271" alt="Dancing Santa">
     </div>
     """,
     unsafe_allow_html=True,
